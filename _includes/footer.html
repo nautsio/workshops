@@ -1,0 +1,10 @@
+<footer class="white-on-blue">
+    <div class="layout vertical center-justified center">
+        <div>
+        {% for network in site.social %}
+            <a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+        {% endfor %}
+        </div>
+        <div class="tiny">Copyright &copy; {{ site.title }} 2015 - powered by <a href="http://www.xebia.com">Xebia</a></div>
+    </div>
+</footer>

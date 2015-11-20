@@ -1,0 +1,150 @@
+---
+---
+
+@import "colors";
+
+body {
+  font-family: Roboto Slab,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: $boulder;
+}
+
+h1, h2, h3 {
+  font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+h1 { font-size: 2.15em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.35em; }
+
+a {
+  color: $nauts-blue;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  border-bottom: 1px solid $nauts-orange;
+}
+
+.full-width {
+  width: 100%;
+}
+.align-center {
+  text-align: center;
+}
+
+#topBar {
+  padding-left: 30px;
+}
+#logo-text {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+#slogan {
+  font-weight: bold;
+  display: none;
+}
+footer > div {
+  height: 64px;
+}
+footer a .fa {
+  font-size: 1.2em;
+  color: $white;
+  padding-bottom: 0.4em;
+}
+footer a:hover, footer a:hover .fa {
+  color: $nauts-orange;
+  border: 0;
+}
+.tiny {
+  font-size: 0.75em;
+}
+
+.column {
+  min-width: 360px;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+paper-card {
+  width: 360px;
+  margin: 20px;
+  margin-bottom: 20px;
+  background-color: $wild-sand;
+}
+paper-card img {
+  width: 100%;
+  background-color: $nauts-blue;
+  background-image: linear-gradient(0deg, transparent 24%, rgba(255,255,255, 0.2) 25%, rgba(255,255,255, 0.2) 26%, transparent 27%, transparent 74%, rgba(255,255,255, 0.2) 75%, rgba(255,255,255, 0.2) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255,255,255, 0.2) 25%, rgba(255,255,255, 0.2) 26%, transparent 27%, transparent 74%, rgba(255,255,255, 0.2) 75%, rgba(255,255,255, 0.2) 76%, transparent 77%, transparent);
+  background-size: 50px 50px;
+}
+paper-card .card-content {
+  padding-bottom: 0;
+}
+paper-card .title h3 {
+  margin: 0;
+  
+}
+paper-card .small {
+  font-size: 0.85em;
+}
+paper-card .card-actions {
+  height: 32px;
+}
+.devops-font {
+  font-size: 1.2em;
+}
+.devops-font i {
+  padding-left: 14px;
+}
+
+.yellow {
+  color: $naut-yellow;
+}
+.blue {
+  color: $naut-blue;
+}
+.orange {
+  color: $naut-orange;
+}
+.red {
+  color: $naut-red;
+}
+
+.black-on-grey {
+  background-color: $gallery;
+}
+.white-on-blue {
+  background-color: $nauts-blue !important;
+  color: $white !important;
+}
+.white-on-blue a {
+  color: black;
+}
+
+.hide-card paper-card {
+  background-color: transparent;
+}
+.hide-card paper-card paper-material {
+  box-shadow: initial !important;
+}
+.square-header-img paper-card img {
+  background-color: transparent;
+  background-image: initial;
+  width: 150px;
+  height:150px;
+}
+
+
+@media only screen and (min-width: 400px) {
+  #slogan {
+    display: inline;
+  }
+  .column {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

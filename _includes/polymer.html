@@ -1,0 +1,64 @@
+<div class="layout horizontal center-justified wrap">
+    <div class="layout vertical column">
+        <div class="column-title"><h1 id="sharing-knowledge">Sharing knowledge</h1></div>
+        {% for post in site.categories.posts %}
+        {% if post.categories contains 'blogpost' %}
+        <paper-card class="fancy">
+            <div class="card-content">
+                <div class="avatar {{ post.tags }}"></div>
+                <div class="title">
+                    <div class="medium"><a href="{{ post.externalurl }}"><span>{{ post.title }}</span></a></div>
+                    <div class="small">{{ post.author }}</div>
+                </div>
+            </div>
+            <div class="card-content"></div>
+        </paper-card>
+        {% endif %}
+        {% endfor %}
+    </div>
+    <div class="layout vertical column">
+        <div class="column-title"><h1>Testimonials</h1></div>
+        {% for post in site.categories.customer-story %}
+        <paper-card class="fancy">
+            <div class="card-content">
+                <div class="avatar {{ post.tags }}"></div>
+                <div class="title">
+                    <div class="medium"><a href="{{ post.externalurl }}"><span>{{ post.title }}</span></a></div>
+                    <div class="small">{{ post.author }}</div>
+                </div>
+            </div>
+            <div class="card-content"></div>
+        </paper-card>
+        {% endfor %}
+    </div>
+    <div class="layout vertical column">
+        <div class="column-title"><h1>Try it yourself</h1></div>
+        {% for post in site.categories.workshop %}
+        <paper-card class="fancy">
+            <div class="card-content">
+                <div class="avatar {{ post.tags }}"></div>
+                <div class="title">
+                    <div class="medium"><a href="{{ post.externalurl }}"><span>{{ post.title }}</span></a></div>
+                    <div class="small">{{ post.author }}</div>
+                </div>
+            </div>
+            <div class="card-content"></div>
+        </paper-card>
+        {% endfor %}
+    </div>
+   <div class="layout vertical column">
+        <div class="column-title"><h1>Calendar</h1></div>
+        {% for post in site.categories.calendar %}
+        <paper-card class="fancy">
+            <div class="card-content">
+                <div class="avatar {{ post.tags }}"></div>
+                <div class="title">
+                    <div class="medium"><a href="{{ post.externalurl }}"><span>{{ post.title }}</span></a></div>
+                    <div class="small">{{ post.date | date: "%-d %B %Y" | downcase }}</div>
+                </div>
+            </div>
+            <div class="card-content"></div>
+        </paper-card>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,22 @@
+title: Nauts
+tagline: The data center automation experts!
+description: "Nauts are experts in Datacenter Automation. We are experienced infrastructure engineers with a focus on containerization."
+url: http://staging.nauts.io
+email: info@nauts.io
+social:
+  - title: twitter
+    url: http://twitter.com/nautsio
+  - title: github
+    url: http://github.com/nautsio
+
+collections:
+ - partner
+ - services
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+    input: GFM
+
+gems:
+  - jekyll-redirect-from

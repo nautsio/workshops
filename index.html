@@ -1,16 +1,13 @@
 ---
+layout: polymer
 ---
-<html>
-<head>
-<title>DDD Workshops</title>
-</head>
-
-<body>
-<a href="http://nauts.io/workshop-swarm">Scaling docker with swarm and compose</a>
-<br><a href="http://nauts.io/workshop-nomad">Workshop Nomad</a>
-<br><a href="http://nauts.io/workshop-docker-coreos-and-consul">Workshop A high available Docker container platform using CoreOS and Consul</a>
-<br><a href="http://nauts.io/workshop-docker-plugins">Workshop create your own Docker plugin</a>
-<br><a href="http://nauts.io/workshop-docker-consul">Workshop Docker & Consul</a>
-</body>
-
-</html>
+{% assign basicposts = site.categories.blogpost | where: "difficulty", "basic" %}
+{% assign advancedposts = site.categories.blogpost | where: "difficulty", "advanced" %}
+    <div class="layout horizontal center-justified wrap">
+        <div class="align-center"><h1>Workshops</h1></div>
+        <div>
+        {% for post in site.categories.workshop %}
+            {% include post.html %}
+        {% endfor %}
+        </div>
+    </div>

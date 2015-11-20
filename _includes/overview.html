@@ -1,0 +1,54 @@
+<!-- Expertise Section -->
+    <section id="overview" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <h2 id="sharing-knowledge">Sharing knowledge</h2>
+                    {% for post in site.categories.posts %}
+                    {% if post.categories contains 'blogpost' %}
+                    <div class="post">
+                        <a href="{{ post.externalurl }}"><h4 class="text-muted">{{ post.title }}</h4></a>
+                         {{ post.categories | last | replace: '-', ' ' | capitalize }} about {% for tag in post.tags %}{% if forloop.first == false and forloop.last == false %}, {% endif %}{% if forloop.last == true and forloop.length > 1 %} and {% endif %}{{ tag }}{% endfor %} by {{ post.author }}
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="col-xs-3">
+                    <h2>&nbsp;</h2>
+                    {% for post in site.categories.posts %}
+                    {% if post.categories contains 'customer-story' %}
+                    <div class="post">
+                        <a href="{{ post.externalurl }}"><h4 class="text-muted">{{ post.title }}</h4></a>
+                         {{ post.categories | last | replace: '-', ' ' | capitalize }} about {% for tag in post.tags %}{% if forloop.first == false and forloop.last == false %}, {% endif %}{% if forloop.last == true and forloop.length > 1 %} and {% endif %}{{ tag }}{% endfor %} by {{ post.author }}
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="col-xs-3">
+                    <h2 id="hands-on">Try it yourself</h2>
+                    {% for post in site.categories.workshop %}
+                    <div class="hands-on">
+                        <a href="{{ post.externalurl }}"><h4 class="text-muted">{{ post.title }}</h4></a>
+                         {{ post.category | capitalize }} about {% for tag in post.tags %}{% if forloop.first == false and forloop.last == false %}, {% endif %}{% if forloop.last == true and forloop.length > 1 %} and {% endif %}{{ tag }}{% endfor %} by {{ post.author }}
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="col-xs-3">
+                    <h2 id="upcoming-events">Calendar</h2>
+                    {% for post in site.categories.calendar %}
+                    <div class="event">
+                        <div class="event-details">
+                            <div class="event-date">
+                                <span class="fa-stack fa-2x"><i class="fa fa-calendar-o fa-stack-2x"></i><strong class="fa-stack-1x calendar-text">{{ post.date | date: "%d" }}</strong></span>
+                            </div>
+                            <div class="event-description">
+                                <a href="{{ post.externalurl }}"><h4 class="text-muted">{{ post.title }}</h4></a>
+                                {{ post.category | capitalize }} about {% for tag in post.tags %}{% if forloop.first == false and forloop.last == false %}, {% endif %}{% if forloop.last == true and forloop.length > 1 %} and {% endif %}{{ tag }}{% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>

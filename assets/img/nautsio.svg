@@ -1,0 +1,47 @@
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="24" width="116" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g stroke-dashoffset="0" stroke="#000" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="5" display="none" fill="none">
+  <path stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m50,2v12c0,5,4,8,8,8s8-3,8-8v-12" stroke-linecap="round"/>
+  <g stroke-linejoin="miter" transform="translate(-195,-497.36218)" stroke-linecap="round">
+   <path style="enable-background:accumulate;color:#000000;" d="m269,499.36,16,0"/>
+   <path style="enable-background:accumulate;color:#000000;" d="m277,499.36,0,20"/>
+  </g>
+  <path stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m113,2h-10c-3,0-5,2-5,5s2,5,5,5,4,0.00002,7,0.00001,4,2,4,5-2,5-5,5h-10" stroke-linecap="round"/>
+  <g transform="translate(-2,3.6293946e-6)">
+   <path stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" d="M28,22,36,2,44,22" stroke-linecap="round"/>
+   <path stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m31,15,10,0" stroke-linecap="butt"/>
+  </g>
+  <path stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m2,22v-18c0-1,0-2,1-2s13,20,14,20,1-1,1-2v-18" stroke-linecap="round"/>
+ </g>
+ <g stroke-linejoin="miter" stroke="#FFF" stroke-linecap="round" stroke-dasharray="none" fill="none" stroke-miterlimit="4" stroke-width="4" transform="translate(-195,-497.36218)" stroke-dashoffset="0">
+  <path style="enable-background:accumulate;color:#000000;" d="m245,499.36v12c0,5,4,8,8,8s8-3,8-8v-12"/>
+  <g>
+   <path style="enable-background:accumulate;color:#000000;" d="m269,499.36,16,0"/>
+   <path style="enable-background:accumulate;color:#000000;" d="m277,499.36,0,20"/>
+  </g>
+  <path style="enable-background:accumulate;color:#000000;" d="m308,499.36h-10c-3,0-5,2-5,5s2,5,5,5,4,0.00002,7,0.00001,4,2,4,5-2,5-5,5h-10"/>
+ </g>
+ <g transform="translate(-2,3.5000002e-6)" display="none">
+  <path stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m129,7.4979,0,15" stroke-dashoffset="0" stroke="#00F" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="3" fill="none"/>
+  <path d="m141,13.675c0,4.1421-2.9102,7.5-6.5,7.5s-6.5-3.3579-6.5-7.5,2.9102-7.5,6.5-7.5,6.5,3.3579,6.5,7.5z" transform="translate(6,1.3249565)" stroke="#00F" stroke-dasharray="none" stroke-miterlimit="4" stroke-width="3" fill="none"/>
+  <path d="m125,22c0,1.1046-0.89543,2-2,2s-2-0.89543-2-2,0.89543-2,2-2,2,0.89543,2,2z" fill="#00F"/>
+ </g>
+ <g display="none">
+  <path stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="m31,15,10,0" transform="translate(-2,3.5000001e-6)" stroke-dashoffset="0" stroke="#7fcdee" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+ </g>
+ <g transform="translate(-2,3.5000002e-6)">
+  <path stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" d="M28,22,36,2,44,22" stroke-dashoffset="0" stroke="#FFF" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+ </g>
+ <g transform="translate(-2,3.5000002e-6)">
+  <path stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" d="M4,22v-18c0-1,0-2,1-2s13,20,14,20,1-1,1-2v-18" stroke-dashoffset="0" stroke="#FFF" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+ </g>
+</svg>
